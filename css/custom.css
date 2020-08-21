@@ -11,6 +11,46 @@
     font-size: 24px;
 }
 
-.about-facts li{
+.projects .svg{
+    width: 45px;
+    height: 45px;
+    padding-bottom: 10px;
+}
+
+.projects .inner b{
+    color: #24a19c; 
+}
+
+.about-facts{
     font-size: 14px;
+}
+
+.svg {
+    color: #24a19c;
+}
+
+.about-facts label{
+    min-width: 80px;
+    font-weight: 500;
+    margin: 5px 0px;
+}
+
+.about-facts .left-about-fact label{
+    min-width: 65px;
+}
+
+.about-facts .col-6{
+    padding: 0px 7px;
+}
+
+.contact-inner {
+    padding-top: 80px;
+}
+
+a{
+    color: #24a19c;
+}
+
+a:hover{
+    color: #04817c; 
 }
