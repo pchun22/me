@@ -54,3 +54,30 @@ a{
 a:hover{
     color: #04817c; 
 }
+
+.iframe-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%;
+  }
+  
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.dance-inner{
+    padding-top: 80px;
+}
+
+.dance-section{
+    padding-top: 140px;
+    background-color: #f9f9f9;
+}
