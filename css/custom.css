@@ -79,5 +79,10 @@ a:hover{
 
 .dance-section{
     padding-top: 140px;
+    padding-bottom: 60px;
     background-color: #f9f9f9;
+}
+
+.dance-inner .col-12{
+    padding: 15px;
 }
