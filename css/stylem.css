@@ -235,7 +235,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_leftpart .inner .menu ul li a:hover{color: #ff214f;}
+.arlo_tm_leftpart .inner .menu ul li a:hover{color: #24a19c;}
 .arlo_tm_leftpart .inner .menu ul li a:before{
 	position: absolute;
 	content: "";
@@ -286,11 +286,11 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_leftpart .inner .bottom ul li a:hover{color: #ff214f;}
+.arlo_tm_leftpart .inner .bottom ul li a:hover{color: #24a19c;}
 .arlo_tm_leftpart .inner .resize{
 	width: 38px;
 	height: 38px;
-	background-color: #ff214f;
+	background-color: #24a19c;
 	position: absolute;
 	right: 0px;
 	bottom: 20%;
@@ -301,7 +301,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_leftpart .inner .resize.opened{right: -38px;}
+.arlo_tm_leftpart .inner .resize.opened{right: -98px;}
 .arlo_tm_leftpart .inner .resize a{
 	position: absolute;
 	top: 0px;
@@ -461,8 +461,8 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_classic_menu.animate .logo .dark{display: block;}
 .arlo_tm_classic_menu.animate .logo .light{display: none;}
 .arlo_tm_classic_menu.animate .menu ul li a{color: #000;}
-.arlo_tm_classic_menu.animate .menu ul li a:hover{color: #ff214f;}
-.arlo_tm_classic_menu .inner .menu ul li a:hover{color: #ff214f;}
+.arlo_tm_classic_menu.animate .menu ul li a:hover{color: #24a19c;}
+.arlo_tm_classic_menu .inner .menu ul li a:hover{color: #24a19c;}
 
 
 
@@ -570,7 +570,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	font-size: 45px;
 	font-weight: 700;
 }
-.arlo_tm_hero_header .hero_content .name_holder h3 span{color: #ff214f;}
+.arlo_tm_hero_header .hero_content .name_holder h3 span{color: #24a19c;}
 .arlo_tm_hero_header .hero_content .text_typing p{
 	color: #fff;
 	font-size: 19px;
@@ -716,13 +716,13 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 }
 .arlo_tm_about .rightbox .about_title{margin-bottom: 30px;}
 .arlo_tm_about .rightbox .about_title h3{font-size: 20px;}
-.arlo_tm_about .rightbox .about_title h3 .arlo_tm_animation_text_word{color: #ff214f;}
+.arlo_tm_about .rightbox .about_title h3 .arlo_tm_animation_text_word{color: #24a19c;}
 .arlo_tm_about .rightbox .text{
 	margin-bottom: 23px;
 	float: left;
 }
 .arlo_tm_about .rightbox .text span{
-	color: #ff214f;
+	color: #24a19c;
 	font-style: italic;
 }
 .arlo_tm_about .about_short_contact_wrap{
@@ -770,7 +770,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	top: 6px;
 	width: 17px;
 	height: 17px;
-	color: #ff214f;
+	color: #24a19c;
 }
 .arlo_tm_about .buttons{
 	width: 100%;
@@ -789,7 +789,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_about .buttons ul li a{
 	text-decoration: none;
 	color: #fff;
-	background-color: #ff214f;
+	background-color: #24a19c;
 	display: inline-block;
 	padding: 10px 45px;
 	font-family: "Montserrat";
@@ -828,7 +828,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	display: inline-block;
 	font-size: 14px;
 	text-transform: uppercase;
-	color: #ff214f;
+	color: #24a19c;
 	font-weight: 500;
 }
 
@@ -882,7 +882,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_services .service_inner ul li .inner .svg{
 	width: 45px;
 	height: 45px;
-	color: #ff214f;
+	color: #24a19c;
 	margin-bottom: 15px;
 }
 .arlo_tm_services .service_inner ul li .inner h3{
@@ -913,7 +913,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	margin-bottom: 29px;
 }
 .arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3{font-size: 20px;}
-.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3 span{color: #ff214f;}
+.arlo_tm_progress_wrap .progress_wrap_inner .left .main_title h3 span{color: #24a19c;}
 .arlo_tm_progress_wrap .right{
 	width: 50%;
 	height: auto;
@@ -1004,7 +1004,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	text-decoration: none;
 	color: #000;
 }
-.arlo_tm_portfolio .portfolio_filter ul li a.current{color: #ff214f;}
+.arlo_tm_portfolio .portfolio_filter ul li a.current{color: #24a19c;}
 .arlo_tm_portfolio .portfolio_list{
 	width: 100%;
 	height: auto;
@@ -1224,7 +1224,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_timeline .timeline_inner .svg{
 	width: 30px;
 	height: 30px;
-	color: #ff214f;
+	color: #24a19c;
 	position: absolute;
 	left: -55px;
 	top: -3px;
@@ -1297,7 +1297,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_pricing .pricing_inner > ul > li > .inner .svg{
 	width: 45px;
 	height: 45px;
-	color: #ff214f;
+	color: #24a19c;
 	margin-bottom: 10px;
 }
 .arlo_tm_pricing .pricing_inner > ul > li > .inner .title{
@@ -1314,7 +1314,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	margin-bottom: 30px;
 }
 .arlo_tm_pricing .pricing_inner > ul > li > .inner ul li{margin: 0px;}
-.arlo_tm_pricing .pricing_inner > ul > li.active > .inner{background-color: #ff214f;}
+.arlo_tm_pricing .pricing_inner > ul > li.active > .inner{background-color: #24a19c;}
 .arlo_tm_pricing .pricing_inner > ul > li.active > .inner .svg{color: #fff;}
 .arlo_tm_pricing .pricing_inner > ul > li.active > .inner .title{color: #fff;}
 .arlo_tm_pricing .pricing_inner > ul > li.active > .inner .price{color: #fff;}
@@ -1333,7 +1333,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	text-decoration: none;
 	color: #fff;
 	display: inline-block;
-	background-color: #ff214f;
+	background-color: #24a19c;
 	padding: 7px 35px;
 	font-family: "Montserrat";
 	
@@ -1343,7 +1343,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_button a:hover{box-shadow: 0px 0px 10px #ff214f;}
+.arlo_tm_button a:hover{box-shadow: 0px 0px 10px #24a19c;}
 
 /*---------------------------------------------------*/
 /*	12) ARLO NEWS
@@ -1421,7 +1421,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	left: 0px;
 	z-index: 2;
 	display: inline-block;
-	background-color: #ff214f;
+	background-color: #24a19c;
 	color: #fff;
 	padding: 3px 15px;
 }
@@ -1472,7 +1472,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_news .news_inner ul li .inner .details .title a:hover{color: #ff214f;}
+.arlo_tm_news .news_inner ul li .inner .details .title a:hover{color: #24a19c;}
 
 /*---------------------------------------------------*/
 /*	13) ARLO CONTACT
@@ -1512,7 +1512,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_contact .short_list ul li .svg{
 	width: 25px;
 	height: 25px;
-	color: #ff214f;
+	color: #24a19c;
 	margin-bottom: 9px;
 }
 .arlo_tm_contact .short_list ul li h3{
@@ -1624,7 +1624,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_totop{
 	position: relative;
 	overflow: hidden;
-	background-color: #ff214f;
+	background-color: #24a19c;
     padding: 22px;
     border-radius: 3px;
     display: inline-block;
@@ -1676,7 +1676,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 .arlo_tm_popup_news .date{margin-bottom: 10px;}
 .arlo_tm_popup_news .date a{
 	text-decoration: none;
-	color: #ff214f;
+	color: #24a19c;
 	border-bottom: 1px solid transparent;
 	
 	-webkit-transition: all .3s ease;
@@ -1685,7 +1685,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_popup_news .date a:hover{border-bottom-color: #ff214f;}
+.arlo_tm_popup_news .date a:hover{border-bottom-color: #24a19c;}
 .arlo_tm_popup_news .image img{min-width: 100%;}
 .arlo_tm_popup_news .image .main{
 	position: absolute;
@@ -1731,7 +1731,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	     -o-transition: all .3s ease;
 	        transition: all .3s ease;
 }
-.arlo_tm_popup_news .social ul li a:hover{color: #ff214f;}
+.arlo_tm_popup_news .social ul li a:hover{color: #24a19c;}
 .arlo_tm_popup_news .des_serv_list{
 	width: 100%;
 	float: left;
@@ -1856,11 +1856,11 @@ body.dark .arlo_tm_leftpart{background-color: #191919;box-shadow: 0 0 30px rgba(
 body.dark .arlo_tm_leftpart .inner .logo .dark{display: none;}
 body.dark .arlo_tm_leftpart .inner .logo .light{display: block;}
 body.dark .arlo_tm_leftpart .inner .menu ul li a{color: #fff;}
-body.dark .arlo_tm_leftpart .inner .menu ul li a:hover{color: #ff214f;}
+body.dark .arlo_tm_leftpart .inner .menu ul li a:hover{color: #24a19c;}
 body.dark .arlo_tm_leftpart .inner .menu ul li a:before{background-color: rgba(255,255,255,.1);}
 body.dark .arlo_tm_leftpart .inner .menu ul li a:after{background-color: rgba(255,255,255,.08);}
 body.dark .arlo_tm_leftpart .inner .bottom ul li a{color: #fff;}
-body.dark .arlo_tm_leftpart .inner .bottom ul li a:hover{color: #ff214f;}
+body.dark .arlo_tm_leftpart .inner .bottom ul li a:hover{color: #24a19c;}
 body.dark .arlo_tm_about ul li label{color: #fff;}
 body.dark .arlo_tm_about .leftbox .about_image_wrap .border .inner{border-color: #fff;}
 body.dark .arlo_tm_about .rightbox .text span{color: #fff;font-weight: 500;}
@@ -1872,23 +1872,23 @@ body.dark .arlo_tm_services{background-color: #191919;}
 body.dark .arlo_tm_services .service_inner ul li .inner{background-color: #101010;box-shadow: 0px 0px 20px rgba(255,255,255,0);}
 body.dark .progress_inner .background{background-color: rgba(255,255,255,.2);}
 body.dark .arlo_tm_portfolio .portfolio_filter ul li a{color: #fff;}
-body.dark .arlo_tm_portfolio .portfolio_filter ul li a.current{color: #ff214f;}
+body.dark .arlo_tm_portfolio .portfolio_filter ul li a.current{color: #24a19c;}
 body.dark .arlo_tm_timeline .timeline_inner .left ul:before{background-color: rgba(255,255,255,.2);}
 body.dark .arlo_tm_timeline .timeline_inner .right ul:before{background-color: rgba(255,255,255,.2);}
 body.dark .arlo_tm_testimonial .testimonial_bg .overlay{background-color: rgba(0,0,0,.75);}
 body.dark .arlo_tm_pricing{background-color: #191919;}
 body.dark .arlo_tm_pricing .pricing_inner > ul > li > .inner{background-color: #101010;box-shadow: 0px 0px 20px rgba(255,255,255,0);}
-body.dark .arlo_tm_pricing .pricing_inner > ul > li.active > .inner{background-color: #ff214f;}
+body.dark .arlo_tm_pricing .pricing_inner > ul > li.active > .inner{background-color: #24a19c;}
 body.dark .arlo_tm_news .news_inner ul li .inner .details{background-color: #191919;}
 body.dark .arlo_tm_news .news_inner ul li .inner .details .title a{color: #fff;}
-body.dark .arlo_tm_news .news_inner ul li .inner .details .title a:hover{color: #ff214f;}
+body.dark .arlo_tm_news .news_inner ul li .inner .details .title a:hover{color: #24a19c;}
 body.dark .arlo_tm_news .news_inner ul li .inner .details .date a{color: #fff;}
 body.dark .arlo_tm_news .news_inner ul li .inner .details .date a:hover{border-bottom-color: #fff;}
 body.dark .arlo_tm_popup_news .closer{color: #fff;}
 body.dark .arlo_tm_news .news_inner ul li .inner .details .date:before{background-color: rgba(255,255,255,.2);}
 body.dark .arlo_tm_popup_news{background-color: #101010;}
 body.dark .arlo_tm_popup_news .social ul li a{color: #fff;}
-body.dark .arlo_tm_popup_news .social ul li a:hover{color: #ff214f;}
+body.dark .arlo_tm_popup_news .social ul li a:hover{color: #24a19c;}
 body.dark .arlo_tm_popup_news .des_serv_list ul li:before{background-color: #fff;}
 body.dark .arlo_tm_popup_news .date a{color: #fff;}
 body.dark .arlo_tm_popup_news .date a:hover{border-bottom-color: #fff;}
@@ -1900,7 +1900,7 @@ body.dark .arlo_tm_classic_menu.animate{background-color: #000;box-shadow: 0px 0
 body.dark .arlo_tm_classic_menu.animate .logo .light{display: block;}
 body.dark .arlo_tm_classic_menu.animate .logo .dark{display: none;}
 body.dark .arlo_tm_classic_menu.animate .menu ul li a{color: #fff;}
-body.dark .arlo_tm_classic_menu.animate .menu ul li a:hover{color: #ff214f;}
+body.dark .arlo_tm_classic_menu.animate .menu ul li a:hover{color: #24a19c;}
 body.dark .arlo_tm_logo_author .image .main:before{background-color: rgba(255,255,255,.15);}
 
 /*---------------------------------------------------*/
@@ -2053,9 +2053,9 @@ body.dark .arlo_tm_logo_author .image .main:before{background-color: rgba(255,25
 	transition: all .3s ease;
 }
 .arlo_tm_intro_mainpart .main_filter ul li a.current{
-	background-color: #ff214f;
+	background-color: #24a19c;
 }
-.arlo_tm_intro_mainpart .main_filter ul li a:hover{background-color: #ff214f;}
+.arlo_tm_intro_mainpart .main_filter ul li a:hover{background-color: #24a19c;}
 
 
 
@@ -2127,7 +2127,7 @@ body.dark .arlo_tm_logo_author .image .main:before{background-color: rgba(255,25
 	left: 0px;
 	z-index: 1;
 	display: inline-block;
-	background-color: #ff214f;
+	background-color: #24a19c;
 	color: #fff;
 	font-weight: 600;
 	font-family: "Montserrat";
@@ -2218,7 +2218,7 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 	font-size: 22px;
 	font-weight: 600;
 }
-.arlo_tm_logo_author .title span{color: #ff214f;}
+.arlo_tm_logo_author .title span{color: #24a19c;}
 .arlo_tm_hero_header .container{height: 100%;z-index: 3;}
 .arlo_tm_arrow_wrap.extra{left: auto;}
 .arlo_tm_extra_hero_content{
@@ -2234,7 +2234,7 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 	font-size: 75px;
 	margin-bottom: 12px;
 }
-.arlo_tm_extra_hero_content .title span{color: #ff214f;}
+.arlo_tm_extra_hero_content .title span{color: #24a19c;}
 .arlo_tm_extra_hero_content .text{
 	color: #fff;
 	opacity: .7;
@@ -2250,7 +2250,7 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 .arlo_tm_extra_hero_content .button_one a{
 	text-decoration: none;
     color: #fff;
-    background-color: #ff214f;
+    background-color: #24a19c;
     display: inline-block;
     padding: 10px 45px;
     font-family: "Montserrat";
@@ -2329,10 +2329,10 @@ body.classic .arlo_tm_contact .returnmessage{text-align: center;}
 /*---------------------------------------------------*/
 
 @media (max-width: 1600px) {
-	.arlo_tm_leftpart{width: 360px;}
-	.arlo_tm_rightpart{padding-left: 360px;}
+	.arlo_tm_leftpart{width: 300px;}
+	.arlo_tm_rightpart{padding-left: 300px;}
 	.arlo_tm_leftpart .inner .menu ul li a{padding: 10px 0px;}
-	body.rtl .arlo_tm_rightpart{padding-right: 360px;}
+	body.rtl .arlo_tm_rightpart{padding-right: 300px;}
 }
 @media (max-width: 1400px) {
 	.arlo_tm_about{margin-bottom: 80px;}

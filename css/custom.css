@@ -1,3 +1,16 @@
 .interests p{
     font-size: 14px;
 }
+
+.projects p{
+    font-size: 14px;
+    padding-top: 6px;
+}
+
+.projects li h3{
+    font-size: 24px;
+}
+
+.about-facts li{
+    font-size: 14px;
+}
