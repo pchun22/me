@@ -79,7 +79,6 @@ a:hover{
 
 .dance-section{
     padding-top: 140px;
-    padding-bottom: 60px;
     background-color: #f9f9f9;
 }
 
@@ -87,8 +86,8 @@ a:hover{
     padding: 15px;
 }
 
-.dance-section .gifs img{
-    
+.gifs{
+    padding: 0px 50px 50px 50px;
 }
 
 
@@ -110,10 +109,10 @@ a:hover{
   .modal-content {
     background-color: #fefefe;
     color: #555555; 
-    margin: 15% auto; /* 15% from the top and centered */
-    padding: 80px;
+    margin: 50px auto;
+    padding: 50px 100px 80px;
     border: 1px solid #888;
-    width: 80%; /* Could be more or less, depending on screen size */
+    width: 70%; /* Could be more or less, depending on screen size */
     z-index: 16;
   }
 
