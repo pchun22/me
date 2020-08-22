@@ -1589,7 +1589,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	height: auto;
 	clear: both;
 	float: left;
-	background-color: #000;
+	background-color: #f9f9f9;
 	padding: 42px 0px;
 }
 .arlo_tm_footer .footer_inner{
@@ -1601,7 +1601,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	align-items: center;
 	justify-content: space-between;
 }
-.arlo_tm_footer .footer_inner .copy p{color: #fff;}
+.arlo_tm_footer .footer_inner .copy p{color: #black;}
 .arlo_tm_footer .footer_inner .copy p a{
 	text-decoration: none;
 	color: #fff;
