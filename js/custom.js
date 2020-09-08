@@ -42,22 +42,25 @@ $("#youth-btn").on("click", function() {
 $("#steezy-product").on("click", function() {
     $("#productModal").css("display", "block") 
     $("#product-name").html("Steezy Studio")
-    $("#product-description").html("Steezy Studio is an online dance platform that offers a variety of classes in different styles and difficulties. ")
+    $("#product-description").html("Steezy Studio is an online dance platform that offers a variety of classes in different styles and difficulties. <a href=\"https://www.steezy.co/\" target=\"_blank\">More</a>")
 })
 
 $("#cricut-product").on("click", function() {
     $("#productModal").css("display", "block") 
-    $("#product-name").html("Cricut Explore")
+    $("#product-name").html("Cricut Explore Air")
+    $("#product-description").html("The cricut explore air is a craft machine that cuts or draws digital designs. This is what I use to make my custom apparel! <a href=\"https://cricut.com/en_us/machines/cricut-explore-air-2.html\" target=\"_blank\">More</a>")
 })
 
 $("#rocketbook-product").on("click", function() {
     $("#productModal").css("display", "block") 
     $("#product-name").html("Rocketbook")
+    $("#product-description").html("The Rocketbook is a reusable notebook that allows for notes to be scanned and uploaded to various cloud file systems via a simple smartphone camera. <a href=\"https://getrocketbook.com/\" target=\"_blank\">More</a>")
 })
 
 $("#tiktok-product").on("click", function() {
     $("#productModal").css("display", "block") 
     $("#product-name").html("Tik-Tok")
+    $("#product-description").html("Tik-Tok is a very popular content creation and social media platform that excels in bringing its users customized desireable content. <a href=\"https://www.tiktok.com/\" target=\"_blank\">More</a>")
 })
 
 
