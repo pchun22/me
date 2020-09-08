@@ -1601,7 +1601,7 @@ body.dark ::placeholder { /* Most modern browsers support this now. */
 	align-items: center;
 	justify-content: space-between;
 }
-.arlo_tm_footer .footer_inner .copy p{color: #black;}
+.arlo_tm_footer .footer_inner .copy p{color: black;}
 .arlo_tm_footer .footer_inner .copy p a{
 	text-decoration: none;
 	color: #fff;

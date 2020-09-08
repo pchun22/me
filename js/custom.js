@@ -38,15 +38,35 @@ $("#youth-btn").on("click", function() {
     $("#song-frame").attr("src", "https://www.youtube.com/embed/UVp-LQvSi7E?&autoplay=1")
 })
 
+// Products
+$("#steezy-product").on("click", function() {
+    $("#productModal").css("display", "block") 
+    $("#product-name").html("Steezy Studio")
+    $("#product-description").html("Steezy Studio is an online dance platform that offers a variety of classes in different styles and difficulties. ")
+})
 
-// // When the user clicks on <span> (x), close the modal
-// span.onclick = function() {
-//     $("#myModal").css("display", "none")
-// }
+$("#cricut-product").on("click", function() {
+    $("#productModal").css("display", "block") 
+    $("#product-name").html("Cricut Explore")
+})
+
+$("#rocketbook-product").on("click", function() {
+    $("#productModal").css("display", "block") 
+    $("#product-name").html("Rocketbook")
+})
+
+$("#tiktok-product").on("click", function() {
+    $("#productModal").css("display", "block") 
+    $("#product-name").html("Tik-Tok")
+})
+
 
 // When the user clicks anywhere outside of the modal, close it
 window.onclick = function(event) {
   if (event.target == $("#myModal")[0]) {
     $("#myModal").css("display", "none")
+  }
+  if (event.target == $("#productModal")[0]) {
+    $("#productModal").css("display", "none")
   }
 }

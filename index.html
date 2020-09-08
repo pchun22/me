@@ -147,7 +147,7 @@
 											<h3>I'm Parker Chun and a <span class="arlo_tm_animation_text_word"></span></h3>
 										</div>
 										<div class="text">
-											<p>Hi! My name is <span>Parker Chun</span>. I am a Junior at the University of Notre Dame studying Computer Science and Engineering Corporate Practice. I'm an aspiring Product Manager and have a passion for innovative products. Check out some of my interestes and projects below!</p>
+											<p>Hi! My name is <span>Parker Chun</span>. I am a Junior at the University of Notre Dame studying Computer Science and Engineering Corporate Practice. I'm an aspiring Product Manager and have a passion for innovation ideas and products. Check out some of my interests and projects below!</p>
 										</div>
 										<div class="about_short_contact_wrap about-facts">
 											<div class="row">
@@ -243,12 +243,22 @@
 											<h3>My Current Favorite Products</h3>
 											<p>Click on each to find out more about each of these</p>
 											<br/>
-											<p><a href="https://www.steezy.co/" target="_blank">Steezy Studio</a></p>
-											<p><a href="https://cricut.com/en_us/cricut-explore-family" target="_blank">Cricut Explore</a></p>
-											<p><a href="https://www.apple.com/airpods-pro/?afid=p238%7CsAjczGzW9-dc_mtid_1870765e38482_pcrid_443905855884_pgrid_87272266274_&cid=aos-us-kwgo-ipad--slid---product-" target="_blank">Airpods Pro</a></p>
-											<p><a href="https://www.tiktok.com/en/" target="_blank">TikTok</a></p>
+											<p id="steezy-product">Steezy Studio</p>
+											<p id="cricut-product">Cricut Explore</p>
+											<p id="rocketbook-product">Rocketbook</p>
+											<p id="tiktok-product">Tik Tok</p>
 										</div>
 									</li>
+									<!-- The Modal -->
+									<div id="productModal" class="modal">
+
+										<!-- Modal content -->
+										<div class="modal-content">
+											<h3 id="product-name">Product</h3>
+											<br />
+											<p id="product-description">Description</p>
+										</div>
+									</div>
 								</ul>
 							</div>
 						</div>
@@ -267,8 +277,8 @@
 							<div class="portfolio_inner">
 								<div class="arlo_tm_portfolio_titles"></div>
 								<div class="portfolio_list">
-									<ul>
-										<li>
+									<div class="row">
+										<div class="col-12 col-md-4">
 											<div class="inner">
 												<img class="svg" src="img/svg/bts.svg" alt="" />
 												<h3>BTS MV Detector</h3>
@@ -277,8 +287,8 @@
 												<p><b>What:</b> I took the top 30 BTS music videos from YouTube and ran them through a Python script to take a frame every 5 seconds. I then used these images to train a image classification model with Microsoft Azure's customvision.ai and then developed a basic front-end to call the classification model in the back-end and return the song name.</p>
 												<p><b>Where:</b> <a href="https://bts-mv.herokuapp.com/" target="_blank">Here!</a></p>
 											</div>
-										</li>
-										<li>
+										</div>
+										<div class="col-4">
 											<div class="inner">
 												<img class="svg" src="img/svg/calendar-svgrepo-com.svg" alt="" />
 												<h3>Event Bot Sync</h3>
@@ -287,8 +297,8 @@
 												<p><b>What:</b> I used an internal automation tool that I heard about in a speaker panel. By learning how to use this tool in a couple days, I built a process that scrapes and structures the event data from the intern portal and then uploads that data into google calendar to create the events in a single calendar.</p>
 												<p><b>Where:</b> Internal company app marketplace</p>
 											</div>
-										</li>
-										<li>
+										</div>
+										<div class="col-4">
 											<div class="inner">
 												<img class="svg" src="img/svg/dancer2.svg" alt="" />
 												<h3>Trace Dance</h3>
@@ -297,8 +307,8 @@
 												<p><b>What:</b> I embedded a webcam and a YouTube iframe into a webpage to visualize myself and a choreography side by side in real time. I'm currently working on recording the videos and playing them back together. There is potential to use computer vision to trace both dancers' outlines and create an accuracy score.</p>
 												<p><b>Where:</b> WIP - Stay tuned!</p>
 											</div>
-										</li>
-									</ul>
+										</div>
+									</div>
 									<div class="row">
 										<div class="col-12">
 											<h3>Other Projects</h3>
@@ -308,7 +318,7 @@
 											<p><b>Bop-it</b>: <i>Modified version of bop-it on an Arduino</i></p>
 										</div>
 										<div class="col-6">
-											<p><b>Pfresh</b>: <i>Website for hip-hop dance club. <a href="https://peaceful-retreat-51240.herokuapp.com/" target="_blank">View</a></i></p>
+											<p><b>Pfresh</b>: <i>Website for hip-hop dance club. <a href="https://pfresh.herokuapp.com/" target="_blank">View</a></i></p>
 											<p><b>St. Bakhita's</b>: <i>Website for school in Uganda. <a href="http://www.saintbakhitas.org/" target="_blank">View</a></i></p>
 										</div>
 									</div>
@@ -329,21 +339,19 @@
 								<div class="dance-inner">
 									<p>Just an amateur having fun and learning to dance. Here are some of my favorites, click each gif to see the full video!</p>
 									<br />
-									<div>
-										
 
 										<!-- The Modal -->
 										<div id="myModal" class="modal">
 
-										<!-- Modal content -->
-										<div class="modal-content">
-											<h3 id="song-name">Song</h3>
-											<br />
-											<div class="iframe-container">
-												<iframe src=" " id="song-frame" class="responsive-iframe" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+											<!-- Modal content -->
+											<div class="modal-content">
+												<h3 id="song-name">Song</h3>
+												<br />
+												<div class="iframe-container">
+													<iframe src=" " id="song-frame" class="responsive-iframe" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+												</div>
 											</div>
 										</div>
-									</div>
 
 									<div class="row gifs">
 										<div class="col-6">
