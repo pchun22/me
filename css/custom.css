@@ -21,6 +21,10 @@
     color: #24a19c; 
 }
 
+.projects hr{
+    margin: 8px 0px;
+}
+
 .about-facts{
     font-size: 14px;
 }
